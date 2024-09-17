@@ -1,0 +1,250 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------ Global Styles ------*/
+p {
+    font-size: 1.25em;
+}
+figcaption, label, input {
+    font-size: 1em;
+}
+nav a {
+    font-size: 1.5em;
+}
+h1 {
+    font-size: 3em;
+    background-color: #ffffff;
+    color: #007d7b;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 420px;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 420px;
+}
+li:last-child {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+li:first-child {
+    margin-left: 40px;
+}
+li:nth-child(3) {
+    margin-right: 40px;
+}
+nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+body {
+    background-color: #000000;
+    margin: 0;
+}
+section, div{
+    width: 420px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+#about p {
+    margin-left: 10px;
+}
+#about p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+[href="#top"] {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
+}
+#gallery p {
+    margin-left: 10px;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.bottom {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+.top {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 245px;
+}
+.black {
+    color: #000000;
+}
+.white {
+    color: #ffffff;
+}
+.big-pic {
+    bottom: 585px;
+}
+figure {
+margin: 0 auto;
+}
+#contact {
+    background-color: #000000;
+    color: #ffffff;
+}
+#contact p {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 0;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+input::placeholder {
+    color: #007d7b;
+    padding-left: 5px;
+}
+input:last-of-type {
+    width: 150px;
+    background-color: #007d7b;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+label {
+    margin-left: 5px;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+footer {
+    color: #ffffff;
+}
+footer p {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+#gal-intro p{
+margin-bottom: 0;
+margin-left: 10px;
+}
+#gal-intro {
+    padding-bottom: 20px;
+}
+/*------ 880px Styles ------*/
+@media screen and (min-width:880px) {
+    h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    nav ul {
+        width: 700px;
+        justify-content: center;
+    }
+    nav li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #about p {
+        width: 735px;
+    }
+    section, h1, div{
+        width: 820px;
+    }
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    figure {
+        width: 390px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .hawaii {
+        height: 292px;
+    }
+    form {
+        width: auto;
+        margin: 0 auto;
+    }
+    #contact p {
+        width: 500px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    input {
+        width: 700px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        margin-left: 65px;
+    }
+    input:last-of-type {
+        width: 400px;
+    }
+}
+/*------ 1300px Styles ------*/
+@media screen and (min-width:1300px) {
+    section, h1, div{
+        width: 1200px;
+    }
+    #gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    nav ul {
+        width: 1250px;
+        justify-content: right;
+    }
+    #about p:last-child {
+        width: auto;
+    }
+    input {
+        width: 1000px;
+    }
+    label {
+        margin-left: 107px;
+    }
+    input:last-of-type {
+        width: 600px;
+    }
+}

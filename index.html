@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <header id="top">
+        <h1>TK Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">Top</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About</h2>
+        <p>Hello!</p>
+        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken me all over the world.</p> 
+    </section>
+    <section id="gal-intro">
+        <h2>Gallery</h2>
+        <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+    </section>
+    <div id="gallery">
+        <figure>
+            <img src="images/Chile.png" alt="A beach in Chile" width="390" height="252">
+            <figcaption class="bottom white">Chile, 2001</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/Guatemala.png" alt="A lake in Guatemala" width="390" height="252">
+            <figcaption class="top white">Guatemala, 1997</figcaption>
+        </figure>
+
+        <figure class="hawaii">
+            <img src="images/Hawaii.png" alt="A mountain-range in Hawaii" width="390" height="252">
+            <figcaption class="bottom white">Hawaii, 2010</figcaption>
+        </figure>
+
+        <figure class="big-pic">
+            <img src="images/Iran.png" alt="A Desert in Iran" width="390" height="590">
+            <figcaption class="top black big-pic">Iran, 1999</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Ireland.png" alt="Green hills in Ireland" width="390" height="590">
+            <figcaption class="top black big-pic">Ireland, 2012</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Italy.png" alt="A lake in Italy" width="390" height="590">
+            <figcaption class="bottom black">Italy, 2015</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Moab-Desert.png" alt="A sunset in Moab-Desert" width="390" height="252">
+            <figcaption class="bottom white">Moab Desert, 2020</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Rocky-Mountains.png" alt="Rocky-Mountains" width="390" height="252">
+            <figcaption class="top black">Rocky Mountains, 2009</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Switzerland.png" alt="Snowy mountains in Switzerland" width="390" height="252">
+            <figcaption class="top black">Switzerland, 2014</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/UK.png" alt="Green hills in the UK" width="390" height="252">
+            <figcaption class="top black">UK, 2005</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/USA.png" alt="A field of flowers in the USA" width="390" height="252">
+            <figcaption class="top black">USA, 2021</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/Wyoming.png" alt="A lake in Wyoming" width="390" height="252">
+            <figcaption class="top white">Wyoming, 2021</figcaption>
+        </figure>
+    </div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Please fill out this form and I’ll connect with you soon.</p>
+
+        <form method="get">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your full name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address">
+            <label for="text">Message</label>
+            <input type="text" name="text" id="text" placeholder="What can I help you with?">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright 2021 TK Photography</p>
+    </footer>
+</body>
+</html>
